@@ -52,6 +52,46 @@ onComplete:() => {
 }
 );
 
+gsap.fromTo(".btn",{opacity:1},{opacity:0, scrollTrigger:{
+    scrub: true,
+    end:"10%"
+    
+
+    
+},
+onComplete:() => {
+    gsap.to(".btn",{opacity:0});
+},
+}
+);
+
+gsap.fromTo(".texto",{opacity:0},{opacity:1, scrollTrigger:{
+    scrub: true,
+    start:"82%",
+    
+
+},
+}
+);
+
+gsap.fromTo(".texto2",{opacity:0},{opacity:1, scrollTrigger:{
+    scrub: true,
+    start:"82%",
+    
+
+},
+}
+);
+
+gsap.fromTo(".texto3",{opacity:0},{opacity:1, scrollTrigger:{
+    scrub: true,
+    start:"82%",
+    
+
+},
+}
+);
+
 images [0].onload = render;
 
 function render(){
