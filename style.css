@@ -5,8 +5,9 @@ box-sizing: border-box;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
+
 
 canvas{
     width: 100vw;
@@ -36,12 +37,12 @@ canvas{
 
 
 .details{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  
 }
 
 .container{
@@ -59,7 +60,6 @@ canvas{
   bottom: 85%;
   transform: translate(-20%,-60%);
 }
-
 .container3{
   position: fixed;
   width: 65rem;
